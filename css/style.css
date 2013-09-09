@@ -1,0 +1,700 @@
+/* CSS Document */
+body {
+	margin:0;
+	font-family:'Lato',sans-serif;
+}
+
+img {
+	border:0;
+}
+
+.center {
+	text-align:center;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.clearfix {
+	clear:both;
+}
+
+.container {
+	margin:45px 1px 0;
+	width:808px;
+}
+
+.contentPlay {
+	border:1px solid red;
+	height:650px;
+}
+
+.footer {
+	margin:10px 0 0;
+	text-align:justify;
+	line-height:15px;
+}
+
+.footer p {
+	margin:0!important;
+}
+
+.divError {
+	text-align:center;
+}
+
+.fangate {
+	background-image:url(../img/fangate-bckg-with-text.jpg);
+	height:1000px;
+}
+
+.contentEndGame {
+	background-image:url(../img/endGameBkg.jpg);
+	height:649px;
+	width:809px;
+	border:0;
+}
+
+.contentGoyave {
+	background-image:url(../img/yopgoyave.jpg);
+	height:609px;
+	width:809px;
+	border:0;
+}
+
+.contentMerci {
+	background-image:url(../img/merci.jpg);
+	height:649px;
+	width:809px;
+	border:0;
+}
+
+.contentLeslots {
+	background-image:url(../img/lots-choix.png);
+	height:649px;
+	width:809px;
+	border:0;
+}
+
+.contentChoixMq {
+	background-image:url(../img/lots-972.jpg);
+	height:649px;
+	width:809px;
+	border:0;
+}
+
+.contentClassement {
+	background-image:url(../img/classement-bckg.jpg);
+	border:0;
+	height:649px;
+}
+
+.contentChoixGd {
+	background-image:url(../img/lots-971.jpg);
+	height:649px;
+	width:809px;
+	border:0;
+}
+
+.contentcommentjouer {
+	background-image:url(../img/commentjouer.png);
+	height:649px;
+	width:809px;
+	border:0;
+}
+
+.divChoixGD {
+	position:relative;
+	width:690px;
+	height:200px;
+	top:90px;
+}
+
+.divChoixMQ {
+	position:relative;
+	width:690px;
+	height:200px;
+	top:120px;
+	left:111px;
+}
+
+.contentInscription {
+	background-image:url(../img/form-insitu.jpg);
+	height:649px;
+	width:809px;
+	border:0;
+}
+
+.logo {
+	background-image:url(../img/yoplait.png);
+	width:178px;
+	height:76px;
+	position:relative;
+	left:33px;
+	background-position:0 -11px;
+	background-repeat:no-repeat;
+}
+
+.title {
+	background-image:url(../img/title.png);
+	width:635px;
+	height:270px;
+	left:60px;
+	position:absolute;
+}
+
+.jaime {
+	background-image:url(../img/jaime.gif);
+	width:290px;
+	height:72px;
+	position:absolute;
+	right:0;
+	top:47px;
+}
+
+.btnEndGame {
+	background:rgba(0,0,0,0);
+	background-image:url(../img/btn-blank.png);
+	height:100px;
+	width:421px;
+	position:relative;
+	border:0;
+	color:#E20030;
+	font-weight:900;
+	font-size:29px;
+	top:10px;
+	left:86px;
+}
+
+.btnEndGameMini {
+	background:rgba(0,0,0,0);
+	background-image:url(../img/btn-blank-mini.png);
+	height:100px;
+	width:315px;
+	position:relative;
+	border:0;
+	color:#E20030;
+	font-weight:900;
+	font-size:23px;
+	top:20px;
+	left:137px;
+}
+
+.btnOk {
+	background:rgba(0,0,0,0);
+	background-image:url(../img/ok.png);
+	height:28px;
+	position:relative;
+	border:0;
+	width:63px!important;
+	left:28px;
+	top:4px;
+	font-size:0;
+}
+
+.btnParticipe {
+	background-image:url(../img/participe-without-mouse.gif);
+	height:72px;
+	width:290px;
+	position:absolute;
+	right:0;
+	top:48px;
+	border:0;
+}
+
+.btnReady {
+	background:rgba(0,0,0,0);
+	background-image:url(../img/btn-ready.png);
+	height:56px;
+	width:239px;
+	position:relative;
+	left:123px;
+	top:74px;
+	border:0;
+}
+
+.contentPlay {
+	background-image:url(../img/inter-niveaux-bckg.jpg);
+	height:649px;
+	width:809px;
+	border:0;
+}
+
+.fruitContainer {
+	background-image:url(../img/jeu-bckg.jpg);
+	height:649px;
+	width:809px;
+	border:0;
+	margin:45px 1px 2px;
+	display:none;
+}
+
+.txtLevel {
+	position:relative;
+	top:293px;
+	left:182px;
+	font-size:170px;
+	font-weight:900;
+	font-style:italic;
+	color:#FFF;
+	width:310px;
+}
+
+.txtLevel span {
+	margin-right:98px;
+}
+
+.txtEndGame {
+	position:relative;
+	top:85px;
+	width:600px;
+	margin:0 auto;
+}
+
+.txtEndGame h3 {
+	color:#fff;
+	text-align:center;
+	font-size:52px;
+}
+
+.txtEndGame p {
+	text-align:center;
+	font-size:29px;
+	color:#FFF;
+	line-height:1.3;
+	margin-top:22px;
+	margin-bottom:32px;
+}
+
+.contentInscription h3 {
+	color:#FFF;
+	position:relative;
+	top:85px;
+	font-size:52px;
+}
+
+.precache {
+	display:none;
+}
+
+/* Formulaire */
+.formulaire {
+	width:435px;
+	position:relative;
+	top:115px;
+	left:253px;
+}
+
+.formulaire input[type="text"],.formulaire select,.formulaire input[type="tel"],.formulaire input[type="email"] {
+	width:255px;
+	height:26px;
+	background-color:#C3002A;
+	border:0;
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	color:#FFF;
+	font-size:20px;
+	margin-bottom:20px;
+}
+
+.formulaire select {
+	height:36px;
+	width:269px;
+}
+
+.formulaire label {
+	display:inline-block;
+	position:relative;
+	top:3px;
+	width:140px;
+	text-align:right;
+	margin-right:12px;
+}
+
+.btn-inscription {
+	float:right;
+	margin-right:157px;
+	margin-top:21px;
+}
+
+.formCode {
+	position:absolute;
+	top:494px;
+	left:244px;
+}
+
+div.containerFormCode {
+	width:240px;
+	height:45px;
+	margin:0 auto;
+	padding:0 38px;
+}
+
+.containerFormCode .codeYop {
+	width:154px;
+	font-variant:small-caps;
+	font-size:38px;
+	height:50px;
+	margin:0;
+	padding:11px;
+	background:rgba(0,0,0,0);
+	border:none;
+	text-transform:uppercase;
+	box-shadow:none;
+	color:#D00;
+	font-weight:700;
+}
+
+.containerFormCode .codeYop:focus {
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+
+.containerFormCode input[type="submit"] {
+	background:none;
+	border:none;
+	font-size:41px;
+	font-weight:700;
+	height:50px;
+	color:#D00;
+}
+
+.divRadioInscript {
+	margin-left:5px;
+	width:266px;
+}
+
+.divClassement {
+	position:relative;
+	margin:90px auto;
+	width:750px;
+}
+
+p.info {
+	margin:0;
+	color:green;
+	background:#fff;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	font-size:20px;
+	padding:3px 0;
+	display:none;
+}
+
+.show {
+	display:block!important;
+}
+
+.tableClassement {
+	background:#fff;
+}
+
+.tableClassement th {
+	text-align:center;
+}
+
+.tableClassement td {
+	text-align:center;
+}
+
+.pagination.scoreboard {
+	text-align:center;
+}
+
+.divError {
+	margin-top:7px;
+}
+
+.arrow {
+	background-image:url(../img/fleche.png);
+	width:78px;
+	height:83px;
+	position:absolute;
+	top:510px;
+	left:160px;
+	display:none;
+}
+
+/* End Formualaire */
+/* Classe Jeu Goyave */
+.guavaBox {
+	width:57px;
+	height:62px;
+	position:absolute;
+	margin-top:42px;
+}
+
+.level1 {
+	background-image:url(../img/1-goyaves.png);
+}
+
+.level2 {
+	background-image:url(../img/2-goyaves.png);
+}
+
+.level3 {
+	background-image:url(../img/3-goyaves.png);
+}
+
+.level4 {
+	background-image:url(../img/4-goyaves.png);
+}
+
+.guavaSelected {
+	background-position:0 62px!important;
+}
+
+.infoBefore {
+	position:relative;
+	width:500px;
+	top:108px;
+	text-align:left;
+	left:95px;
+}
+
+h3 {
+	font-size:38px;
+	line-height:1.2;
+	color:#e20030;
+}
+
+.x1 {
+	left:0;
+}
+
+.x2 {
+	left:57px;
+}
+
+.x3 {
+	left:114px;
+}
+
+.x4 {
+	left:171px;
+}
+
+.x5 {
+	left:228px;
+}
+
+.x6 {
+	left:285px;
+}
+
+.x7 {
+	left:342px;
+}
+
+.x8 {
+	left:397px;
+}
+
+.x9 {
+	left:454px;
+}
+
+.x10 {
+	left:511px;
+}
+
+.x11 {
+	left:568px;
+}
+
+.x12 {
+	left:625px;
+}
+
+.x13 {
+	left:682px;
+}
+
+.x14 {
+	left:739px;
+}
+
+.y1 {
+	top:0;
+}
+
+.y2 {
+	top:62px;
+}
+
+.y3 {
+	top:124px;
+}
+
+.y4 {
+	top:186px;
+}
+
+.y5 {
+	top:248px;
+}
+
+.y6 {
+	top:310px;
+}
+
+.y7 {
+	top:372px;
+}
+
+.y8 {
+	top:434px;
+}
+
+.y9 {
+	top:496px;
+}
+
+.spritePos1 {
+	background-position-y:0;
+}
+
+.spritePos2 {
+	background-position-y:-61px;
+}
+
+.spritePos3 {
+	background-position-y:-123px;
+}
+
+.spritePos4 {
+	background-position-y:-185px;
+}
+
+.spritePos5 {
+	background-position-y:-248px;
+}
+
+.infojeu {
+	position:absolute;
+	top:636px;
+	left:254px;
+	font-size:40px;
+	color:#E20030;
+}
+
+.infojeu p {
+	display:inline-block;
+}
+
+.timer {
+	position:relative;
+	left:10px;
+	width:170px;
+	text-align:right;
+}
+
+/* Fin classe Jeu */
+/* Bootstrap */
+.navbar-inverse .navbar-inner {
+	background-color:#e20030;
+	background-image:-moz-linear-gradient(top,#e20030,#e20030);
+	background-image:-webkit-gradient(linear,0 0,0 100%,from(#e20030),to(#e20030));
+	background-image:-webkit-linear-gradient(top,#e20030 0%,#e20030 100%);
+	background-image:-o-linear-gradient(top,#e20030,#e20030);
+	background-image:linear-gradient(to bottom,#e20030,#e20030);
+	background-repeat:repeat-x;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e20030 ',endColorstr='#e20030 ',GradientType=0);
+	border-color:#e20030;
+}
+
+.navbar-inverse .nav .active > a,.navbar-inverse .nav .active > a:hover,.navbar-inverse .nav .active > a:focus {
+	color:#FFF;
+	background-color:#D547C9;
+}
+
+.navbar-inverse .nav > li > a:focus,.navbar-inverse .nav > li > a:hover {
+	background-color:transparent;
+	color:#FFF;
+}
+
+.navbar-inverse .brand,.navbar-inverse .nav > li > a {
+	color:#FFF;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.25);
+	font-size:17px;
+	font-weight:300;
+}
+
+.navbar .nav > li {
+	float:left;
+	margin:0 25px 0 0;
+	font-size:16px;
+}
+
+.navbar .nav {
+	margin:0 10px 0 20px;
+}
+
+.navbar-inner {
+	padding:0!important;
+	margin-bottom:0;
+}
+
+.table {
+	margin-bottom:10px;
+}
+
+.pagination {
+	margin:0;
+}
+
+/* End Bootstrap */
+/* modif Ajout page code */
+.codeContainer {
+	position:relative;
+	text-align:center;
+	top:140px;
+}
+
+.codeContainer h3 {
+	color:#fff;
+}
+
+.codeContainer h5 {
+	color:#fff;
+	font-size:20px;
+	margin:20px 0;
+}
+
+.containerFormCode2 .codeYop {
+	width:150px;
+	font-size:36px;
+	padding:12px;
+	color:#E70000;
+}
+
+.containerFormCode2 input[type="submit"] {
+	background:none;
+	border:none;
+	font-size:40px;
+	margin-bottom:11px;
+	margin-left:12px;
+	height:41px;
+	color:#fff;
+}
+
+.codeContainer .divError {
+	border:1px solid #414141;
+	display:inline-block;
+	padding:5px 81px;
+	background:#DD8D00;
+	color:#463F3A;
+}
+
+/* modif page play devient fangate */
+.txtLevel {
+	position:absolute;
+	top:517px;
+}
